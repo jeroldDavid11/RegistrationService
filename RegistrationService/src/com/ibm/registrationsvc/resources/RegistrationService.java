@@ -22,4 +22,10 @@ import com.ibm.registrationsvc.services.UserService;
 @Consumes(MediaType.APPLICATION_JSON)
 public class RegistrationService {
 	
+	@Path("/users")
+	   public Users UsersResource() {
+		Users userResource = new Users();
+	      return userResource;
+	   }
+
 }

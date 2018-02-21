@@ -18,8 +18,6 @@ import javax.ws.rs.core.Response.Status;
 import com.ibm.registrationsvc.dto.User;
 import com.ibm.registrationsvc.services.UserService;
 
-@Path("/users")
-@Consumes(MediaType.APPLICATION_JSON)
 public class Users {
 	UserService userService = new UserService();
 
